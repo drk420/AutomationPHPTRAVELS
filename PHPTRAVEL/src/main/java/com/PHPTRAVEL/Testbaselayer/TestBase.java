@@ -23,7 +23,7 @@ public class TestBase  {
 	@BeforeTest
 	public void setup() {
 		logger = Logger.getLogger("Framework Started");
-		PropertyConfigurator.configure("Log4j.propertiesFile");
+		PropertyConfigurator.configure("Log4Jfile.properties");
 		logger.info("Flipkart Framework Started");
 	}
 	
@@ -51,7 +51,7 @@ public class TestBase  {
 		 System.out.println("Provide correct browser");
 	 }
 	 
-	 driver.get("https://www.flipkart.com/");
+	 driver.get("https://phptravels.com/demo/");
 	 driver.manage().window().maximize();
 	 driver.manage().deleteAllCookies();
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
