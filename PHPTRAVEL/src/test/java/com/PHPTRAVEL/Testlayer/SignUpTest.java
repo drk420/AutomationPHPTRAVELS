@@ -17,12 +17,12 @@ public class SignUpTest extends TestBase{
 		
 		Signuppage signuppage= new Signuppage (driver);
 		
-		signuppage.enterfirstname("Dnyaneshwar");
-		signuppage.enterlastname("Kinikar");
-		signuppage.enteremail("kinikardnyaneshwar28@gmail.com");
-		signuppage.enterpassword("Dnyaneshwar@123");
+		signuppage.enterfirstname("Dnyaneshwarr");
+		signuppage.enterlastname("Kinikarr");
+		signuppage.enteremail("kinikardnyaneshwar26@gmail.com");
+		signuppage.enterpassword("Dnyaneshwar@1234");
 		signuppage.selectcountry();
-		signuppage.enterwhatsupnumber("8788172074");
+		signuppage.enterwhatsupnumber("8788172084");
 		signuppage.clickoncheckbox();
 		//Thread.sleep(10000);
 		//signuppage.clickonsignupbutton();
