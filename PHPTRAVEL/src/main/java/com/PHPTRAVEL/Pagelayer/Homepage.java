@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.PHPTRAVEL.Testbaselayer.TestBase;
+import com.PHPTRAVEL.Utility.Explicitewait;
 import com.PHPTRAVEL.Utility.WindowHandling;
 
 public class Homepage extends TestBase{
@@ -31,7 +32,8 @@ public class Homepage extends TestBase{
 	}
 	
 	public void clickonloginbutton() {
-	
+		Explicitewait e = new Explicitewait();
+		e.waity(login_button);
 		login_button.click();
 		WindowHandling w = new WindowHandling();
 		w.handlingwindow(1);

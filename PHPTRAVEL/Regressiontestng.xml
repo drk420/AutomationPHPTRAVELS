@@ -8,6 +8,7 @@
   <test thread-count="5" name="Test">
 	  <classes>
 		  <class name="com.PHPTRAVEL.Testlayer.SignUpTest"/>
+		  <class name="com.PHPTRAVEL.Testlayer.LoginTest"/>
 	  </classes>
   </test> <!-- Test -->
 </suite> <!-- RegressionSuite -->

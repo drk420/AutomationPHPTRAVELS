@@ -3,15 +3,6 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.PHPTRAVEL.Testlayer.SignUpTest">
-        <methods>
-          <include name="validatesignuptest"/>
-          <include name="setup"/>
-          <include name="start"/>
-          <include name="end"/>
-          <include name="stop"/>
-        </methods>
-      </class> <!-- com.PHPTRAVEL.Testlayer.SignUpTest -->
       <class name="com.PHPTRAVEL.Testlayer.LoginTest">
         <methods>
           <include name="validateloginfunctionality"/>
@@ -21,6 +12,15 @@
           <include name="stop"/>
         </methods>
       </class> <!-- com.PHPTRAVEL.Testlayer.LoginTest -->
+      <class name="com.PHPTRAVEL.Testlayer.SignUpTest">
+        <methods>
+          <include name="validatesignuptest"/>
+          <include name="setup"/>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- com.PHPTRAVEL.Testlayer.SignUpTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
