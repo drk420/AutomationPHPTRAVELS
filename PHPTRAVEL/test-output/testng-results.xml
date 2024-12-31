@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-31T19:10:42 IST" name="Default suite" finished-at="2024-12-31T19:11:07 IST" duration-ms="24795">
+  <suite started-at="2024-12-31T20:21:44 IST" name="Default suite" finished-at="2024-12-31T20:23:43 IST" duration-ms="119665">
     <groups>
     </groups>
-    <test started-at="2024-12-31T19:10:42 IST" name="Default test" finished-at="2024-12-31T19:11:07 IST" duration-ms="24795">
-      <class name="com.PHPTRAVEL.Testlayer.SignUpTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.PHPTRAVEL.Testlayer.SignUpTest@3023df74]" started-at="2024-12-31T19:10:42 IST" name="setup" finished-at="2024-12-31T19:10:43 IST" duration-ms="257" status="PASS">
+    <test started-at="2024-12-31T20:21:44 IST" name="Default test" finished-at="2024-12-31T20:23:43 IST" duration-ms="119665">
+      <class name="com.PHPTRAVEL.Testlayer.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.PHPTRAVEL.Testlayer.LoginTest@3023df74]" started-at="2024-12-31T20:21:44 IST" name="setup" finished-at="2024-12-31T20:21:44 IST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="start()[pri:0, instance:com.PHPTRAVEL.Testlayer.SignUpTest@3023df74]" started-at="2024-12-31T19:10:43 IST" name="start" finished-at="2024-12-31T19:10:57 IST" duration-ms="14511" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.PHPTRAVEL.Testlayer.LoginTest@3023df74]" started-at="2024-12-31T20:21:44 IST" name="start" finished-at="2024-12-31T20:23:39 IST" duration-ms="115444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="validatesignuptest()[pri:0, instance:com.PHPTRAVEL.Testlayer.SignUpTest@3023df74]" started-at="2024-12-31T19:10:57 IST" name="validatesignuptest" finished-at="2024-12-31T19:11:07 IST" duration-ms="9614" status="PASS">
+        <test-method signature="validateloginfunctionality()[pri:0, instance:com.PHPTRAVEL.Testlayer.LoginTest@3023df74]" started-at="2024-12-31T20:23:39 IST" name="validateloginfunctionality" finished-at="2024-12-31T20:23:43 IST" duration-ms="3716" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatesignuptest -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.PHPTRAVEL.Testlayer.SignUpTest@3023df74]" started-at="2024-12-31T19:11:07 IST" name="end" finished-at="2024-12-31T19:11:07 IST" duration-ms="322" status="PASS">
+        </test-method> <!-- validateloginfunctionality -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.PHPTRAVEL.Testlayer.LoginTest@3023df74]" started-at="2024-12-31T20:23:43 IST" name="end" finished-at="2024-12-31T20:23:43 IST" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:com.PHPTRAVEL.Testlayer.SignUpTest@3023df74]" started-at="2024-12-31T19:11:07 IST" name="stop" finished-at="2024-12-31T19:11:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="stop()[pri:0, instance:com.PHPTRAVEL.Testlayer.LoginTest@3023df74]" started-at="2024-12-31T20:23:43 IST" name="stop" finished-at="2024-12-31T20:23:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
-      </class> <!-- com.PHPTRAVEL.Testlayer.SignUpTest -->
+      </class> <!-- com.PHPTRAVEL.Testlayer.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
